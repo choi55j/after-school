@@ -11,18 +11,19 @@ void ShowArray(int* param, int len)
         printf("\n");
     }
 }
-void Swap(int n1, int n2)
+void Swap(int* n1, int* n2)
 {
-    int temp = n1;
-    n1 = n2;
-    n2 = temp;
-    printf("n1 n2 : %d %d ", n1, n2);
+    int temp = *n1;
+    *n1 = *n2;
+    *n2 = temp;
 }
 int main()
 {
+    // call by reference
+
     int num1 = 10, num2 = 20;
     printf("num1 num2 : %d %d\n", num1, num2);
-    Swap(num1, num2);
+    Swap(&num1, &num2);
     printf("num1 num2 : %d %d\n", num1, num2);
 
 
