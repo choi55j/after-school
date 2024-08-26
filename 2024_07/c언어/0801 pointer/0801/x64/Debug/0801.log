@@ -1,8 +1,0 @@
-﻿  0801.cpp
-C:\Users\WIN10\Desktop\c언어\0801\0801\0801.cpp(33,10): warning C4477: 'printf' : 서식 문자열 '%s'에 'char *' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'int'입니다.
-C:\Users\WIN10\Desktop\c언어\0801\0801\0801.cpp(33,10): warning C4313: 'printf': 서식 문자열의 '%s'이(가) int' 형식의 인수 1과(와) 충돌합니다.
-C:\Users\WIN10\Desktop\c언어\0801\0801\0801.cpp(34,10): warning C4477: 'printf' : 서식 문자열 '%s'에 'char *' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'int'입니다.
-C:\Users\WIN10\Desktop\c언어\0801\0801\0801.cpp(34,10): warning C4313: 'printf': 서식 문자열의 '%s'이(가) int' 형식의 인수 1과(와) 충돌합니다.
-C:\Users\WIN10\Desktop\c언어\0801\0801\0801.cpp(34,65): warning C4474: 'printf' : 서식 문자열에 전달된 인수가 너무 많습니다.
-C:\Users\WIN10\Desktop\c언어\0801\0801\0801.cpp(34,65): message : 자리 표시자 및 해당 매개 변수에는 variadic 인수가 1개 필요하지만 2개가 제공되었습니다.
-  0801.vcxproj -> C:\Users\WIN10\Desktop\c언어\0801\x64\Debug\0801.exe
